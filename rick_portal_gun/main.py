@@ -19,9 +19,3 @@ def shoot():
     typer.echo("Shooting portal gun")
 
 
-@app.command()
-def load():
-    """
-    Load the portal gun
-    """
-    typer.echo("Loading portal gun")
